@@ -18,7 +18,9 @@ class Questions extends ChangeNotifier{
 
   void addQuestion(Question question) {
     _questions.add(question);
-    addQuestionToBackend(question);
+    addQuestionToBackend(question).then((_) {
+      loadQuestions();
+    });
     notifyListeners();
   }
 
@@ -45,15 +47,11 @@ class Questions extends ChangeNotifier{
 
   Future<void> addQuestionToBackend(Question question) async {
     final response = await http.post(
-      Uri.parse('http://localhost:8000/api/questions/'),  // Replace with your API endpoint
+      Uri.parse('http://localhost:8000/api/questions/'),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
-      body: jsonEncode(<String, String>{
-        'name': question.name,
-        'text': question.text,
-        // Add other fields as needed
-      }),
+      body: jsonEncode(question.toJson()), // Použití metody toJson()
     );
 
     if (response.statusCode == 201) {

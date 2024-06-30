@@ -32,4 +32,16 @@ class Question {
       createdBy: json['created_by'],  // No need for null check here
     );
   }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'name': name,
+      'text': text,
+      'created_at': createdAt,
+      'status': status,
+      'created_by': createdBy,
+      'answers': answers.map((answer) => {'text': answer}).toList(),
+      'topics': topics.map((topic) => {'name': topic}).toList(),
+    };
+  }
 }
