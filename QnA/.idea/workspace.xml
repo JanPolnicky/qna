@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20f65f0a-31fc-4cc9-975b-9303823f44e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/.idea/AIGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/game/AIPlayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/game/Field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/game/GameLogic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/game/HumanPlayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/game/Player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AIGame/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../FIFA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../calculator_app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../calculator_app/.idea/calculator_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../calculator_app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../calculator_app/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../calculator_app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../calculator_app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../calculator_app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../game1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../game1/.idea/game1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../game1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../game1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../game1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../game1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../game1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../neuron/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../neuron/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../neuron/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../neuron/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../neuron/.idea/neuron.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../neuron/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Arena/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Arena/.idea/Arena.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Arena/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Arena/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Arena/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Arena/kostka.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/.idea/Bojovnik.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/Arena.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/bojovnik.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/kostka.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/mag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Bojovnik/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/.idea/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/app" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/my-file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld/your_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld2/.idea/HelloWorld2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/HelloWorld2/Zdravic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Lokace/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Lokace/.idea/Lokace.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Lokace/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Lokace/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Lokace/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Lokace/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Simpsonovi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Simpsonovi/.idea/Simpsonovi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Simpsonovi/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Simpsonovi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Simpsonovi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Simpsonovi/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vlastnosti/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vlastnosti/.idea/Vlastnosti.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vlastnosti/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vlastnosti/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vlastnosti/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vlastnosti/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vlastnosti/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vypis/.idea/Vypis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vypis/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vypis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vypis/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/Vypis/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/crc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/crc/.idea/crc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/crc/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/crc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/crc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/crc/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/pythonProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/pythonProject/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/pythonProject/.idea/Vypis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/pythonProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/pythonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/pythonProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/pythonProject/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pythonProject/pythonProject1/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2iTOmtci7VcsJYtLJGBHgyBJ62Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/jenik/PycharmProjects/Procvicovani/QnAAplication/QnADjango",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jenik\PycharmProjects\Procvicovani\QnA" />
+      <recent name="C:\Users\jenik\PycharmProjects\Procvicovani\QnA\django" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="QnADjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="QnADjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="QnADjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="QnADjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="QnADjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="QnADjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20f65f0a-31fc-4cc9-975b-9303823f44e8" name="Changes" comment="" />
+      <created>1719511263180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719511263180</updated>
+    </task>
+    <servers />
+  </component>
+</project>
