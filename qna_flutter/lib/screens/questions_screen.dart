@@ -21,7 +21,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
   Widget build(BuildContext context) {
     return FutureBuilder(
       future: loadQuestionsFuture,
-      builder: (context, snapshot) {
+      builder: (context, AsyncSnapshot<void> snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return CircularProgressIndicator();
         } else if (snapshot.hasError) {
@@ -31,39 +31,26 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
             appBar: AppBar(
               title: Text('Questions'),
             ),
-            body: Column(
-              children: [
-                Text(questions.length.toString()),
-                Expanded(
-                  child: ListView.builder(
-                    itemCount: questions.length,
-                    itemBuilder: (context, index) {
-                      return Dismissible(
-                        key: Key(questions[index].id.toString()),
-                        onDismissed: (direction) {
-                          setState(() {
-                            questions.removeQuestion(questions[index]);
-                          });
-                        },
-                        child: ListTile(
-                          title: Text(questions[index].name),
-                          subtitle: Text(questions[index].text),
-                          onTap: () {
-                            // Navigate to the EditQuestionScreen
-                            // You'll need to implement this screen and the navigation logic
-                          },
-                        ),
-                      );
-                    },
-                  ),
-                ),
-              ],
-            ),
-            floatingActionButton: FloatingActionButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/questions/add');
+            body: ExpansionPanelList(
+              expansionCallback: (int index, bool isExpanded) {
+                setState(() {
+                  questions[index].isExpanded = !questions[index].isExpanded;
+                });
               },
-              child: Icon(Icons.add),
+              children: questions.map<ExpansionPanel>((Question question) {
+                return ExpansionPanel(
+                  headerBuilder: (BuildContext context, bool isExpanded) {
+                    return ListTile(
+                      title: Text(question.name),
+                    );
+                  },
+                  body: ListTile(
+                    title: Text(question.text),
+                    subtitle: Text('Answer: ${question.answer}'),
+                  ),
+                  isExpanded: question.isExpanded,
+                );
+              }).toList(),
             ),
           );
         }

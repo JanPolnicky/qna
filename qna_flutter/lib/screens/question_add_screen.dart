@@ -96,7 +96,7 @@ class _AddQuestionScreenState extends State<AddQuestionScreen> {
                     createdAt: DateTime.now().toString(),
                     status: 'u',
                     createdBy: 1,
-                    answers: _answers.map((controller) => controller.text).toList(),
+                    answer: _answers.map((a) => a.text).toList().toString(),
                     topics: _topicsController.text.split(',').map((t) => t.trim().toLowerCase()).toList(),
                     // Add other fields as needed
                   ));

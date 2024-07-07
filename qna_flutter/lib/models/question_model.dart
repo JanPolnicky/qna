@@ -1,47 +1,53 @@
-
 class Question {
   final int id;
-  final List<dynamic> answers;
-  final List<dynamic> topics;
+  final String answer;
+  final List<dynamic>? topics;
   final String name;
   final String text;
   final String createdAt;
   final String status;
-  final int? createdBy;  // Make createdBy nullable
+  final int? createdBy;
+  bool isExpanded = false;
 
   Question({
     required this.id,
-    required this.answers,
-    required this.topics,
+    required this.answer,
+    this.topics,
     required this.name,
     required this.text,
     required this.createdAt,
     required this.status,
-    this.createdBy,  // createdBy can now be null
+    this.createdBy,
   });
 
   factory Question.fromJson(Map<String, dynamic> json) {
-    return Question(
-      id: json['id'],
-      answers: json['answers'],
-      topics: json['topics'],
-      name: json['name'],
-      text: json['text'],
-      createdAt: json['created_at'],
-      status: json['status'],
-      createdBy: json['created_by'],  // No need for null check here
-    );
-  }
+  return Question(
+    id: json['id'],
+    answer: json['answer'] ?? '',  // Use null-coalescing operator
+    topics: json['topics'] as List<dynamic>?,
+    name: json['name'] ?? '',  // Use null-coalescing operator
+    text: json['text'] ?? '',  // Use null-coalescing operator
+    createdAt: json['created_at'] ?? '',  // Use null-coalescing operator
+    status: json['status'] ?? '',  // Use null-coalescing operator
+    createdBy: json['created_by'],
+  );
+}
 
   Map<String, dynamic> toJson() {
     return {
+      'id': id,
+      'answer': answer,
+      'topics': topics?.map((topic) => {'name': topic}).toList(),
       'name': name,
       'text': text,
       'created_at': createdAt,
       'status': status,
       'created_by': createdBy,
-      'answers': answers.map((answer) => {'text': answer}).toList(),
-      'topics': topics.map((topic) => {'name': topic}).toList(),
     };
+  }
+
+  @override
+  String toString() {
+    return 'Question{id: $id, name: $name, text: $text, answer: $answer, isExpanded: $isExpanded}';
   }
 }

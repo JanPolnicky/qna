@@ -1,17 +1,11 @@
 from django import forms
-from .models import Question, Answer
+from .models import Question
 
 class QnAForm(forms.ModelForm):
     class Meta:
         model = Question
-        fields = ['text']
+        fields = ['text', 'answer']  # Add 'answer' to the fields
         widgets = {
             'text': forms.Textarea(attrs={'rows': 4, 'cols': 15}),
+            'answer': forms.Textarea(attrs={'rows': 4, 'cols': 15}),  # Add this line
         }
-
-    answer_text = forms.CharField(widget=forms.Textarea(attrs={'rows': 4, 'cols': 15}))
-
-    def save(self, commit=True):
-        question = super().save(commit)
-        Answer.objects.create(question=question, text=self.cleaned_data['answer_text'])
-        return question

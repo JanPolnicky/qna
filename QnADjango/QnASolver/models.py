@@ -29,6 +29,7 @@ class Question(models.Model):
     topics = models.ManyToManyField(Topic)
     name = models.CharField(max_length=200,default="")
     text = models.TextField()
+    answer = models.TextField(null=True, blank=True)  # Add this line
     created_by = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, auto_created=True)
     created_at = models.DateTimeField(auto_now_add=True)
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='u')
@@ -42,24 +43,6 @@ class Question(models.Model):
     class Meta:
         ordering = ['-created_at']
 
-    def display_answers(self):
-        return ", ".join([str(answer) for answer in self.answers.all()])
-    display_answers.short_description = 'Answers'
-
     def display_topics(self):
         return ", ".join([str(topic) for topic in self.topics.all()])
     display_topics.short_description = 'Topics'
-
-class Answer(models.Model):
-    question = models.ForeignKey(Question, on_delete=models.SET_NULL, null=True, related_name='answers')
-    text = models.TextField()
-
-    def __str__(self):
-        return self.text
-
-    def get_absolute_url(self):
-        return reverse('answer_detail', args=[str(self.id)])
-
-    class Meta:
-        ordering = ['id']
-

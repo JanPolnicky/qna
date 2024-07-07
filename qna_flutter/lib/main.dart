@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:qna_flutter/screens/home_screen.dart';
 import 'package:qna_flutter/screens/question_add_screen.dart';
+import 'package:qna_flutter/screens/question_form_screen.dart';
 import 'package:qna_flutter/screens/questions_screen.dart';
 
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomeScreen(),
         '/questions': (context) => QuestionsScreen(),
         '/questions/add': (context) => AddQuestionScreen(),
+        '/question_form': (context) => QuestionForm(),
         //'/answers': (context) => AnswersScreen(),
         //'/topics': (context) => TopicsScreen(),
       },

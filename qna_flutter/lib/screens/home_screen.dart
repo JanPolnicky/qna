@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:qna_flutter/models/topics_model.dart';
+import 'package:qna_flutter/screens/question_form_screen.dart';
+import 'package:qna_flutter/screens/questions_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -17,60 +19,27 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Home'),
-      ),
-      drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            DrawerHeader(
-              child: Text('Menu'),
-              decoration: BoxDecoration(
-                color: Colors.blue,
-              ),
-            ),
-            ListTile(
-              title: Text('Questions'),
-              onTap: () {
-                Navigator.pushNamed(context, '/questions');
-              },
-            ),
-            ListTile(
-              title: Text('Answers'),
-              onTap: () {
-                Navigator.pushNamed(context, '/answers');
-              },
-            ),
-            ListTile(
-              title: Text('Topics'),
-              onTap: () {
-                Navigator.pushNamed(context, '/topics');
-              },
-            ),
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text('Home'),
+          bottom: TabBar(
+            tabs: [
+              Tab(text: 'Questions'),
+              Tab(text: 'Question Form'),
+              Tab(text: 'Topics'),
+            ],
+          ),
+        ),
+        body: TabBarView(
+          children: [
+            // Replace these with the actual widgets for each tab
+            Container(), // Questions tab
+            QuestionForm(), // Question Form tab
+            Container(), // Topics tab
           ],
         ),
-      ),
-      body: ListView.builder(
-        itemCount: topics.topics.length,
-        itemBuilder: (context, index) {
-          return ListTile(
-            title: Text(topics.topics[index].name),
-            onTap: () {
-              // Navigate to the TopicDetailScreen
-              // You'll need to implement this screen and the navigation logic
-            },
-          );
-        },
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          // Navigate to a new screen to add a question
-          // You'll need to implement this screen and the navigation logic
-        },
-        child: Icon(Icons.add),
-        backgroundColor: Colors.blue,
       ),
     );
   }
